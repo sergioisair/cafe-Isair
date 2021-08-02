@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "197985909442",
+    "project_id": "appmenus-5b319",
+    "storage_bucket": "appmenus-5b319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197985909442:android:4745586f3c5f2307f1195b",
+        "android_client_info": {
+          "package_name": "com.cafeisair.prueba_tienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197985909442-4r65s8hdich242l2d8n4bee7m0pq0s47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cafeisair.prueba_tienda",
+            "certificate_hash": "cf26785b75ba7484e1b02939332acb6960cd03e0"
+          }
+        },
+        {
+          "client_id": "197985909442-gf3bjvj0e7nboc2g82hgh4gr1td85gh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClRtnLGTpn1SBtQ2Xakt3iSr3uw6jj40U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197985909442-gf3bjvj0e7nboc2g82hgh4gr1td85gh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
