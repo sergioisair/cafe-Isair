@@ -132,15 +132,14 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-
   Widget _infoProduct(int indexT) {
     return SafeArea(
       child: Column(
         children: [
           Container(
             alignment: Alignment.topCenter,
-            margin:
-                EdgeInsets.only(top: MediaQuery.of(context).size.height) * 0.07,
+            margin: 
+                EdgeInsets.only(top: MediaQuery.of(context).size.height) * 0.03,
             width: double.infinity,
             child: AnimatedText(
               listaTotalProductos[indexT][indexes[indexT]].nombre,
@@ -161,7 +160,7 @@ class _HomePageState extends State<HomePage> {
               duration: Duration(milliseconds: 300),
               useOpacity: false,
               style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width * 0.075,
+                  fontSize: MediaQuery.of(context).size.width * 0.055,
                   fontFamily: "TrainOne",
                   color: Colors.green),
             ),
@@ -170,6 +169,8 @@ class _HomePageState extends State<HomePage> {
       ),
     );
   }
+
+  
 
   Widget _swiperTypeMenu() {
     return TabBarView(
@@ -185,8 +186,6 @@ class _HomePageState extends State<HomePage> {
       ],
     );
   }
-
-  bool play = true;
 
   Widget _swiperProductsCafe(int indexTipo) {
     return Stack(
@@ -428,15 +427,15 @@ class _HomePageState extends State<HomePage> {
             );
           },
           itemCount: countTipo[indexTipo],
-          itemWidth: MediaQuery.of(context).size.width,
+          itemWidth: MediaQuery.of(context).size.width*0.9,
           scrollDirection: Axis.vertical,
           layout: SwiperLayout.CUSTOM,
           customLayoutOption: CustomLayoutOption(startIndex: -4, stateCount: 6)
               .addOpacity([1, 1, 1, 1, 1, 1]).addTranslate([
-            new Offset(0.0, (MediaQuery.of(context).size.height * 0.15) - 120),
-            new Offset(0.0, MediaQuery.of(context).size.height * 0.15 - 240),
-            new Offset(0.0, (MediaQuery.of(context).size.height * 0.15) - 205),
-            new Offset(0.0, (MediaQuery.of(context).size.height * 0.15) - 120),
+            new Offset(0.0, (MediaQuery.of(context).size.height * 0.15) - 100),
+            new Offset(0.0, MediaQuery.of(context).size.height * 0.15 - 200),
+            new Offset(0.0, (MediaQuery.of(context).size.height * 0.15) - 170),
+            new Offset(0.0, (MediaQuery.of(context).size.height * 0.15) - 100),
             new Offset(0.0, MediaQuery.of(context).size.height * 0.18),
             new Offset(0.0, (MediaQuery.of(context).size.height + 200)),
           ]).addScale([0.2, 0.1, 0.2, 0.5, 1, 3], Alignment.center).addRotate(
